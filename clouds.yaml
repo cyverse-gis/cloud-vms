@@ -1,0 +1,24 @@
+clouds:
+  marana:
+    identity_api_version: 3
+    auth:
+      username: ${USER}
+      password:
+      project_name: ${USER}
+      auth_url: https://marana-cloud.cyverse.org:5000
+  tacc:
+    identity_api_version: 3
+    region_name: RegionOne
+    auth:
+      username: ${USER}
+      password:
+      project_name: ${USER}
+      auth_url: https://tacc.jetstream-cloud.org:5000
+  indiana:
+    identity_api_version: 3
+    region_name: RegionOne
+    auth:
+      username: ${USER}
+      password: 
+      project_name: ${USER}
+      auth_url: https://jblb.jetstream-cloud.org:5000
