@@ -2,6 +2,8 @@
 
 Scripts for launching large numbers of VMs on CyVerse Atmosphere and XSEDE Jetstream
 
+scripts and code written by [Julian Pistorius](https://github.com/julianpistorius)
+
 # Contents
 
 ## launch_ .py
