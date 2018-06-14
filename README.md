@@ -29,3 +29,6 @@ Select the hashed value from the `"value"` field:
 "value": "dxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx2"
  ```
  
+## cleanup_servers.py
+
+This script is for deleting the instances when you're done using them.
