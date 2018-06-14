@@ -1,12 +1,13 @@
 #!/usr/bin/env/ python
 
+import os
 import pprint
 import shade
 
 # Modify these values below (or read them in from the command line or environment)
 
 # publickey_filename = '~/.ssh/id_rsa.pub'
-publickey_filename = '/home/${USER}/.ssh/id_rsa.pub'
+publickey_filename = '/home/{}/.ssh/id_rsa.pub'.format(os.getlogin())
 
 cloud_name = 'tacc'
 image_id = '735696ba-8130-4abb-934d-39b7dff73039'  # TACC: Ubuntu 16.04 Devel and Docker
