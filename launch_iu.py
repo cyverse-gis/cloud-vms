@@ -6,7 +6,7 @@ import shade
 # Modify these values below (or read them in from the command line or environment)
 
 # publickey_filename = '~/.ssh/id_rsa.pub'
-publickey_filename = '/home/${USER}/.ssh/id_rsa.pub'
+publickey_filename = '/home/{}/.ssh/id_rsa.pub'.format(os.getusername())
 
 cloud_name = 'indiana'
 image_id = '57feb854-a3dd-4872-97a0-7a14513f5579'  # IU: Ubuntu 16.04 Devel and Docker v.1.14
